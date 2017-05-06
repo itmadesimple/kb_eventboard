@@ -1,0 +1,115 @@
+plugin.tx_kbeventboard_pi1{
+	
+	thumb = IMAGE
+    thumb.file.width = 100
+    
+    thumb{
+        imageLinkWrap = 1
+        imageLinkWrap {
+            bodyTag = <body style="margin: 0px; padding: 0px;background-color:#ffffff;">
+            wrap = <a href="javascript:close();">|</a>
+            JSwindow = 1
+            JSwindow.newWindow = 1
+            JSwindow.expand = 20,20
+            enable = 1
+        }
+    }
+
+    # eventpic for standardview
+	eventpics = IMAGE
+    eventpics.file.width = 250
+	eventpics.wrap = <div class="kb_eventboard_eventimages">|</div>
+    
+    eventpics{
+        imageLinkWrap = 1
+        imageLinkWrap {
+            bodyTag = <body style="margin: 0px; padding: 0px;background-color:#ffffff;">
+            wrap = <a href="javascript:close();">|</a>
+            JSwindow = 1
+            JSwindow.newWindow = 1
+            JSwindow.expand = 20,20
+            enable = 1
+        }
+    }
+	
+	# eventpic for singleview
+	eventpicsSingle = IMAGE
+    eventpicsSingle.file.width = 250
+	eventpicsSingle.wrap = <div class="kb_eventboard_eventimagesSingle">|</div>
+    
+    eventpicsSingle{
+        imageLinkWrap = 1
+        imageLinkWrap {
+            bodyTag = <body style="margin: 0px; padding: 0px;background-color:#ffffff;">
+            wrap = <a href="javascript:close();">|</a>
+            JSwindow = 1
+            JSwindow.newWindow = 1
+            JSwindow.expand = 20,20
+            enable = 1
+        }
+    }
+	
+	# eventpic for frontpageview
+	eventpicsFrontpage = IMAGE
+    eventpicsFrontpage.file.width = 250
+	eventpicsFrontpage.wrap = <div class="kb_eventboard_eventimagesFrontpage">|</div>
+    
+    eventpicsFrontpage{
+        imageLinkWrap = 1
+        imageLinkWrap {
+            bodyTag = <body style="margin: 0px; padding: 0px;background-color:#ffffff;">
+            wrap = <a href="javascript:close();">|</a>
+            JSwindow = 1
+            JSwindow.newWindow = 1
+            JSwindow.expand = 20,20
+            enable = 1
+        }
+    }
+	
+	# eventpic for contextview
+	eventpicsContext = IMAGE
+    eventpicsContext.file.width = 120
+	eventpicsContext.wrap = <div class="kb_eventboard_eventimagesContext">|</div>
+    
+    eventpicsContext{
+        imageLinkWrap = 1
+        imageLinkWrap {
+            bodyTag = <body style="margin: 0px; padding: 0px;background-color:#ffffff;">
+            wrap = <a href="javascript:close();">|</a>
+            JSwindow = 1
+            JSwindow.newWindow = 1
+            JSwindow.expand = 20,20
+            enable = 1
+        }
+    }
+	
+	step = {$step}
+
+	
+	# date and time formating:
+	showStandard{
+		date_stdWrap.strftime= %A %d.%m.%y
+		#date_stdWrap.strftime= %A %d. %B %Y
+		time_stdWrap.strftime= %H:%M
+	}
+	showSingleView{
+		date_stdWrap.strftime= %A %d.%m.%y
+		#date_stdWrap.strftime= %A %d. %B %Y
+		time_stdWrap.strftime= %H:%M
+	}
+	showFrontpage{
+		date_stdWrap.strftime= %A %d.%m.%y
+		#date_stdWrap.strftime= %A %d. %B %Y
+		time_stdWrap.strftime= %H:%M
+	}
+	showContextCol{
+		date_stdWrap.strftime= %A %d.%m.%y
+		#date_stdWrap.strftime= %A %d. %B %Y
+		time_stdWrap.strftime= %H:%M
+	}
+	
+	
+	# RTE Ausgabe formatieren:
+   general_stdWrap.parseFunc < tt_content.text.20.parseFunc
+   parseFunc < tt_content.text.20.parseFunc
+}

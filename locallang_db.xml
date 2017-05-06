@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'kb_eventboard'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_kbeventboard_locations">Location</label>
+			<label index="tx_kbeventboard_locations.locationname">locationname</label>
+			<label index="tx_kbeventboard_locations.street">Street</label>
+			<label index="tx_kbeventboard_locations.zip">zip</label>
+			<label index="tx_kbeventboard_locations.city">City</label>
+			<label index="tx_kbeventboard_locations.logo">Logo Pic</label>
+			<label index="tx_kbeventboard_locations.alttext">Alt tag</label>
+			<label index="tx_kbeventboard_locations.titletext">Title tag</label>
+			<label index="tx_kbeventboard_locations.subtitletext">Image Subtitle text</label>
+			<label index="tx_kbeventboard_locations.description">Description</label>
+			<label index="tx_kbeventboard_locations.homepage">Homepage</label>
+			<label index="tx_kbeventboard_category">Category</label>
+			<label index="tx_kbeventboard_category.category">Category</label>
+			<label index="tx_kbeventboard_category.description">Description</label>
+			<label index="tx_kbeventboard_events">Event</label>
+			<label index="tx_kbeventboard_events.eventname">Event name</label>
+			<label index="tx_kbeventboard_events.datebegin">begining Date</label>
+			<label index="tx_kbeventboard_events.dateend">ending Date</label>
+			<label index="tx_kbeventboard_events.location">Location</label>
+			<label index="tx_kbeventboard_events.category">Category</label>
+			<label index="tx_kbeventboard_events.startingtime">Starttime</label>
+			<label index="tx_kbeventboard_events.delaytime">Time in min. after midnight until event removes. I.e. 0:40 => event removes at 0.40 a.m.</label>
+			<label index="tx_kbeventboard_events.price">Price</label>
+			<label index="tx_kbeventboard_events.images">Images</label>
+			<label index="tx_kbeventboard_events.imagesAlttext">Alt tag (1 line per image)</label>
+			<label index="tx_kbeventboard_events.imagesTitletext">Title tag (1 line per image)</label>
+			<label index="tx_kbeventboard_events.imagesSubTitletext">Image Subtitle (1 line per image)</label>
+			<label index="tx_kbeventboard_events.teaserimages">Teaser Images</label>
+			<label index="tx_kbeventboard_events.teaserimagesAlttext">Alt tag (1 line per image)</label>
+			<label index="tx_kbeventboard_events.teaserimagesTitletext">Title tag (1 line per image)</label>
+			<label index="tx_kbeventboard_events.teaserimagesSubTitletext">Image Subtitle text (1 line per image)</label>
+			<label index="tx_kbeventboard_events.teaserdescription">Short Teaser Description</label>
+			<label index="tx_kbeventboard_events.eventdescription">Description</label>
+			<label index="tt_content.list_type_pi1">Event Board</label>
+			<label index="tx_kbeventboard_events.morelink">morep...</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_kbeventboard_locations">Location</label>
+			<label index="tx_kbeventboard_locations.locationname">Location</label>
+			<label index="tx_kbeventboard_locations.street">Strasse</label>
+			<label index="tx_kbeventboard_locations.zip">PLZ</label>
+			<label index="tx_kbeventboard_locations.city">Ort</label>
+			<label index="tx_kbeventboard_locations.logo">Bild</label>
+			<label index="tx_kbeventboard_locations.alttext">Alt Tag</label>
+			<label index="tx_kbeventboard_locations.titletext">Title Tag</label>
+			<label index="tx_kbeventboard_locations.subtitletext">Untertitel</label>
+			<label index="tx_kbeventboard_locations.description">Beschreibung</label>
+			<label index="tx_kbeventboard_locations.homepage">Homepage</label>
+			<label index="tx_kbeventboard_category">Kategorie</label>
+			<label index="tx_kbeventboard_category.category">Kategorie</label>
+			<label index="tx_kbeventboard_category.description">Beschreibung</label>
+			<label index="tx_kbeventboard_events">Event</label>
+			<label index="tx_kbeventboard_events.eventname">Veranstaltung</label>
+			<label index="tx_kbeventboard_events.datebegin">Datum Beginn</label>
+			<label index="tx_kbeventboard_events.dateend">Datum Ende</label>
+			<label index="tx_kbeventboard_events.location">Location</label>
+			<label index="tx_kbeventboard_events.category">Kategorie</label>
+			<label index="tx_kbeventboard_events.startingtime">Beginn</label>
+			<label index="tx_kbeventboard_events.delaytime">Zeit in Min. nach Mitternacht bis der Event nicht mehr angezeigt wird. Z.B. 0:40 => Event wird bis 00:40 Uhr angezeigt</label>
+			<label index="tx_kbeventboard_events.price">Eintritt</label>
+			<label index="tx_kbeventboard_events.images">Bilder</label>
+			<label index="tx_kbeventboard_events.imagesAlttext">Alt Tag (eine Zeile pro Bild)</label>
+			<label index="tx_kbeventboard_events.imagesTitletext">Title Tag (eine Zeile pro Bild)</label>
+			<label index="tx_kbeventboard_events.imagesSubTitletext">Bild Untertitel (eine Zeile pro Bild)</label>
+			<label index="tx_kbeventboard_events.teaserimages">Teaser Bilder</label>
+			<label index="tx_kbeventboard_events.teaserimagesAlttext">Alt Tag (eine Zeile pro Bild)</label>
+			<label index="tx_kbeventboard_events.teaserimagesTitletext">Title Tag (eine Zeile pro Bild)</label>
+			<label index="tx_kbeventboard_events.teaserimagesSubTitletext">Bild Untertitel (eine Zeile pro Bild)</label>
+			<label index="tx_kbeventboard_events.teaserdescription">kurze Teaser Beschreibung</label>
+			<label index="tx_kbeventboard_events.eventdescription">Beschreibung</label>
+			<label index="tt_content.list_type_pi1">Veranstaltungsanzeige</label>
+			<label index="tx_kbeventboard_events.morelink">mehrk...</label>
+		</languageKey>
+	</data>
+</T3locallang>

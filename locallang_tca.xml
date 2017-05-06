@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>language labels for kb_eventboard BE forms</description>
+		<type>database</type>
+		<csh_table></csh_table>
+		<fileId>EXT:kb_eventboard/locallang_tca.xml</fileId>
+		<labelContext type="array">
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="kb_eventboard">KB Eventboard</label>
+			<label index="kb_eventboard.showmode">View Mode</label>
+			<label index="kb_eventboard.csseven">CSS Class for Even Line</label>
+			<label index="kb_eventboard.cssodd">CSS Class for Odd Line</label>
+			<label index="kb_eventboard.showmode_standardview">View with category selector and navigation</label>
+			<label index="kb_eventboard.showmode_singleview">Single View</label>
+			<label index="kb_eventboard.showmode_frontpageview">View for Frontpage</label>
+			<label index="kb_eventboard.showmode_contextcolumnview">View in context column</label>
+			<label index="kb_eventboard.numperpage">Events per Page</label>
+			<label index="kb_eventboard.show_location">Show Location</label>
+			<label index="kb_eventboard.show_time_mode">show events by timeline</label>
+			<label index="kb_eventboard.only_new_events">show only new events</label>
+			<label index="kb_eventboard.all_events">show all events</label>
+			<label index="kb_eventboard.only_old_events">show only old events (archive) ending Date of event must be set</label>
+			<label index="kb_eventboard.show_morelink">Show more-Link</label>
+			<label index="kb_eventboard.morelink">Link to Event Page ID</label>
+			<label index="kb_eventboard.showTitleLink">Title with Link</label>
+			<label index="kb_eventboard.categories">Categories</label>
+			<label index="kb_eventboard.ascDesc">descending view</label>
+			<label index="kb_eventboard.include_css">include kb_eventboard.css</label>
+			<label index="kb_eventboard.template_selection">select template</label>
+			<label index="kb_eventboard.showImages">show images</label>
+			<label index="kb_eventboard.showAllImages">show all images</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="kb_eventboard">KB Eventboard</label>
+			<label index="kb_eventboard.showmode">Darstellung Modus</label>
+			<label index="kb_eventboard.csseven">CSS Class for Even Line</label>
+			<label index="kb_eventboard.cssodd">CSS Class for Odd Line</label>
+			<label index="kb_eventboard.showmode_standardview">Anzeige mit Navigation und Kategorieauswahl</label>
+			<label index="kb_eventboard.showmode_singleview">Einzelseite: 1 Veranstaltung anzeigen</label>
+			<label index="kb_eventboard.showmode_frontpageview">Anzeige ohne Navigation und Kategorieauswahl</label>
+			<label index="kb_eventboard.showmode_contextcolumnview">Anzeige in Contextspalte</label>
+			<label index="kb_eventboard.numperpage">Anzahl pro Seite</label>
+			<label index="kb_eventboard.show_location">Veranstaltungsort anzeigen</label>
+			<label index="kb_eventboard.show_time_mode">Veranstaltungen nach Zeit anzeigen</label>
+			<label index="kb_eventboard.only_new_events">nur neue Veranstaltungen anzeigen</label>
+			<label index="kb_eventboard.all_events">alle Veranstaltungen anzeigen</label>
+			<label index="kb_eventboard.only_old_events">nur alte Veranstaltungen anzeigen (Archiv) Datum Ende der Veranstaltung muss gesetzt sein</label>
+			<label index="kb_eventboard.show_morelink">mehr-Link anzeigen</label>
+			<label index="kb_eventboard.showTitleLink">Link im Titel</label>			
+			<label index="kb_eventboard.morelink">Verweise auf ID der Eventseite</label>
+			<label index="kb_eventboard.categories">Kategorien</label>
+			<label index="kb_eventboard.ascDesc">Anzeige zeitlich absteigend</label>
+			<label index="kb_eventboard.include_css">kb_eventboard.css Datei einbinden</label>
+			<label index="kb_eventboard.template_selection">Template Auswahl</label>
+			<label index="kb_eventboard.showImages">Bilder anzeigen</label>
+			<label index="kb_eventboard.showAllImages">alle Bilder anzeigen</label>
+		</languageKey>		
+	</data>
+</T3locallang>

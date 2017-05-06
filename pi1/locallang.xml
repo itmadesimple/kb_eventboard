@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_kbeventboard_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+                        <label index="headline">Next Dates</label>
+						<label index="allcategories">All Categories</label>
+                        <label index="starttime">Starttime</label>
+                        <label index="time"></label>
+                        <label index="currency">EUR</label>
+                        <label index="price">Price</label>
+                        <label index="priceFree">free</label>
+                        <label index="locationHP">Location-Homepage</label>
+						<label index="locationTitle">Location:</label>
+						<label index="morelink">more...</label>
+						<label index="nextlinklabel"></label>
+						<label index="prevlinklabel"></label>
+						<label index="back">Back</label>
+						<label index="submit_button_label">Click here to submit value</label>
+						<label index="norecords">no records!</label>
+		</languageKey>
+        <languageKey index="de" type="array">
+                        <label index="headline">Veranstaltungen</label>
+						<label index="allcategories">Alle Kategorien</label>
+                        <label index="starttime">Beginn</label>
+                        <label index="time">Uhr</label>
+                        <label index="currency">EUR</label>
+                        <label index="price">Eintritt</label>
+                        <label index="priceFree">frei</label>
+                        <label index="locationHP">Location-Homepage</label>
+						<label index="locationTitle">Ort:</label>
+						<label index="morelink">mehr...</label>
+						<label index="nextlinklabel"></label>
+						<label index="prevlinklabel"></label>
+						<label index="back">Back</label>
+						<label index="submit_button_label">Wert schicken</label>
+						<label index="norecords">keine Datens&#228;tze gefunden!</label>
+		</languageKey>
+		<languageKey index="nl" type="array">
+                        <label index="headline">Evenementen</label>
+                        <label index="allcategories">Alle Categorien</label>
+                        <label index="starttime">Aanvangstijd</label>
+                        <label index="time">Uur</label>
+                        <label index="currency">EUR</label>
+                        <label index="price">Prijs</label>
+                        <label index="priceFree">Gratis</label>
+                        <label index="locationHP">Location-Homepage</label>
+                        <label index="locationTitle">Plaats: </label>
+                        <label index="morelink">meer ...</label>
+						<label index="nextlinklabel"></label>
+						<label index="prevlinklabel"></label>
+						<label index="back">Terug</label>
+						<label index="submit_button_label">Klik hier om te bevestigen</label>
+						<label index="norecords">no records!</label>
+        </languageKey>
+		
+	</data>
+</T3locallang>
