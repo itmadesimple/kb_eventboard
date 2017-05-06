@@ -313,7 +313,9 @@ $TCA["tx_kbeventboard_events"] = Array (
 						"type" => "script",
 						"title" => "Full screen Rich Text Editing|Formatteret redigering i hele vinduet",
 						"icon" => "wizard_rte2.gif",
-						"script" => "wizard_rte.php",
+                        "module" => array(
+                            'name' => 'wizard_rte',
+                        ),
 					),
 				),
 			)
@@ -375,7 +377,9 @@ $TCA["tx_kbeventboard_events"] = Array (
 						"type" => "script",
 						"title" => "Full screen Rich Text Editing|Formatteret redigering i hele vinduet",
 						"icon" => "wizard_rte2.gif",
-						"script" => "wizard_rte.php",
+                        "module" => array(
+                            'name' => 'wizard_rte',
+                        ),
 					),
 				),
 			)
